@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="ZenMode OS">
+  <defs>
+    <linearGradient id="zm-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#079A0A"/>
+      <stop offset="0.55" stop-color="#058C07"/>
+      <stop offset="1" stop-color="#003D00"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="56" fill="url(#zm-bg)"/>
+  <g transform="translate(106 106) scale(3)" fill="#fff" stroke="#fff" stroke-width="16" stroke-linejoin="round">
+    <polygon points="8,8 18.7,8 8,18.7"/>
+    <polygon points="67.3,8 92,8 92,34.7 34.7,92 8,92 8,67.3"/>
+    <polygon points="92,81.3 92,92 81.3,92"/>
+  </g>
+  <circle cx="256" cy="256" r="22" fill="#079A0A"/>
+</svg>

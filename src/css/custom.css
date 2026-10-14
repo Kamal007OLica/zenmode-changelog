@@ -1,0 +1,38 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* Brand fonts (ZenMode OS v3): Clash Display for headlines, Geist for text, Departure Mono for numbers. */
+@font-face {
+  font-family: 'Clash Display';
+  src: url('../../static/fonts/clash_display_medium.otf') format('opentype');
+  font-weight: 500;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Geist';
+  src: url('../../static/fonts/geist_variable.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Geist';
+  src: url('../../static/fonts/geist_italic_variable.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Departure Mono';
+  src: url('../../static/fonts/departure_mono_regular.otf') format('opentype');
+  font-weight: 400;
+  font-display: swap;
+}
+
+
+:root {
+  --ifm-color-primary: #0f7a18;
+}

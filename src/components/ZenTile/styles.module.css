@@ -1,0 +1,43 @@
+.zenTile {
+  width: 64px;
+  height: 64px;
+  border-radius: 14px;
+  box-shadow:
+    0 0 0 1px rgba(255, 255, 255, 0.18) inset,
+    0 14px 34px -12px rgba(15, 122, 24, 0.7),
+    0 0 48px -6px rgba(91, 223, 98, 0.45);
+}
+.zenTileMark {
+  transform-origin: 256px 256px;
+  transform-box: view-box;
+}
+
+@keyframes zen {
+  0%,
+  22% {
+    transform: rotate(0);
+  }
+  33%,
+  55% {
+    transform: rotate(90deg);
+  }
+  66%,
+  88% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(180deg);
+  }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .zenTileMark {
+    animation: zen 7s cubic-bezier(0.7, 0, 0.2, 1) infinite;
+  }
+}
+
+@media (max-width: 640px) {
+  .zenTile {
+    width: 56px;
+    height: 56px;
+  }
+}

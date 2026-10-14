@@ -1,0 +1,597 @@
+{
+  "_source": "Mined from the ZenMode app repo (github.com/ThammanaSrinivas/zenmode), origin/feature/v3 + origin/main, 2026-03-20 → 2026-10-10. Releases are cut at versionCode bumps in app/build.gradle.kts. Newest first. `todos` and `version`/`commits` are review-only and not shown as copy.",
+  "releases": [
+    {
+      "id": "7",
+      "version": "3.1",
+      "date": "2026-10-10",
+      "sidebarLabel": "Check-In",
+      "title": "Zen Check-In, promise streaks, share cards, and your week as a report",
+      "intro": "This one is about showing up. Small check-ins through the day, a streak built on promises you keep, and cards that celebrate where you've got to. All of it on a Home that's lighter on your battery.",
+      "heroMedia": {
+        "type": "stage",
+        "layout": "fan",
+        "tone": "ember",
+        "alt": "Streak share cards from a 3-day spark to a 400-day orbit",
+        "items": [
+          {
+            "src": "/img/changelog/c-streak-1.webp",
+            "w": 265,
+            "h": 331
+          },
+          {
+            "src": "/img/changelog/c-streak-2.webp",
+            "w": 265,
+            "h": 331
+          },
+          {
+            "src": "/img/changelog/c-streak-3.webp",
+            "w": 265,
+            "h": 331
+          },
+          {
+            "src": "/img/changelog/c-streak-4.webp",
+            "w": 265,
+            "h": 331
+          },
+          {
+            "src": "/img/changelog/c-streak-8.webp",
+            "w": 265,
+            "h": 331
+          }
+        ]
+      },
+      "features": [
+        {
+          "title": "Zen Check-In",
+          "body": "A gentle check-in now appears through the day and shows how your last hour went. It has its own section in Settings."
+        },
+        {
+          "title": "Promise streaks",
+          "body": "Your streak now counts the days you kept your promise. A week strip shows how this week is going, and kept days earn streak coins.",
+          "media": {
+            "type": "stage",
+            "layout": "duo",
+            "tone": "wash",
+            "alt": "The streak share sheet at 30 days kept, beside Zen Gold's week strip one day from unlock",
+            "items": [
+              {
+                "src": "/img/changelog/s-streak-sheet.webp",
+                "w": 461,
+                "h": 775,
+                "label": "Your streak"
+              },
+              {
+                "src": "/img/changelog/s-gold-ontrack.webp",
+                "w": 400,
+                "h": 1000,
+                "label": "This week"
+              }
+            ],
+            "callouts": [
+              {
+                "text": "1 day more under 4 hrs opens gold pay",
+                "pos": "br"
+              }
+            ]
+          }
+        },
+        {
+          "title": "Share cards for every milestone",
+          "body": "Every share point now draws a card for what you've actually reached. Streaks grow from a spark to a full orbit, your Zen Score becomes water from still to storm, and your week becomes an animated story.",
+          "media": {
+            "type": "stage",
+            "layout": "fan",
+            "tone": "ink",
+            "alt": "Zen Score share cards, from still water at 9.5 to a stormy 2.5",
+            "items": [
+              {
+                "src": "/img/changelog/c-water-0.webp",
+                "w": 265,
+                "h": 331
+              },
+              {
+                "src": "/img/changelog/c-water-1.webp",
+                "w": 265,
+                "h": 331
+              },
+              {
+                "src": "/img/changelog/c-water-2.webp",
+                "w": 265,
+                "h": 331
+              },
+              {
+                "src": "/img/changelog/c-water-3.webp",
+                "w": 265,
+                "h": 331
+              },
+              {
+                "src": "/img/changelog/c-water-4.webp",
+                "w": 265,
+                "h": 331
+              }
+            ]
+          }
+        },
+        {
+          "title": "Your week, as a report",
+          "body": "Your weekly report now exports as a PDF with the full ZenMode OS wordmark. Everyone can replay their two most recent weeks from Settings. Pro keeps every week and the PDF.",
+          "media": {
+            "type": "stage",
+            "layout": "duo",
+            "tone": "zen",
+            "alt": "Your weekly share studio beside the free weekly reports in Settings",
+            "items": [
+              {
+                "src": "/img/changelog/s-weekly-studio.webp",
+                "w": 461,
+                "h": 1000
+              },
+              {
+                "src": "/img/changelog/s-weekly-reports.webp",
+                "w": 771,
+                "h": 846
+              }
+            ],
+            "callouts": [
+              {
+                "text": "Your last two weeks are free to replay",
+                "pos": "tr"
+              }
+            ]
+          }
+        }
+      ],
+      "improvements": [
+        "What's new on Home: after an update, a short note shows what changed, just once.",
+        "A Home that rests: the backdrop and streak flame settle after ten seconds, so an idle Home draws nothing.",
+        "Apps open without waiting: today's stats now load in the background.",
+        "Gold Holdings: a new screen that shows the gold you've bought.",
+        "Random Connect on Zen Circle puts you straight into a circle. No accept step.",
+        "Search across every setting: type a few words in any order.",
+        "Report a bug sends you to the community Telegram group, where you can attach screenshots and follow the thread.",
+        "Screen time matches everywhere: Home, the session log and your circle now agree.",
+        "A kinder Zen Score and a more readable session log.",
+        "The resistance ring now counts down, 7 to 1.",
+        "Apps open in their own task, so they show up in Recents. The Lens button opens Google Lens.",
+        "New launcher icons."
+      ],
+      "fixes": [
+        "Fixed some apps, such as LinkedIn, not opening from Home.",
+        "Kite hand-off now counts as your gold purchase in your Zen Gold balance.",
+        "Less background work while your phone is idle: notification counts, the app list and circle refreshes all do less.",
+        "Animations stay still when Remove animations is on.",
+        "ZenMode OS no longer asks for photo and video access. File search is off in the Play build.",
+        "Fixed an issue with sending bug reports."
+      ],
+      "signoff": "Every kept day counts. We're counting with you.",
+      "todos": [],
+      "commits": [
+        "7aaefeb",
+        "3125018",
+        "d858579",
+        "774c269",
+        "3cb74cb",
+        "33578d2",
+        "07c6f2f",
+        "b2e8ee2",
+        "530d078",
+        "31134e3",
+        "783ad23",
+        "64653cd",
+        "49aa428",
+        "99c3773",
+        "983daaa",
+        "8417c27",
+        "04fba72",
+        "97d1e15",
+        "e4f0297",
+        "52563c2"
+      ],
+      "icon": "check"
+    },
+    {
+      "id": "6",
+      "version": "3.05",
+      "date": "2026-09-25",
+      "sidebarLabel": "Promises",
+      "title": "Real promise tracking, a first-run guide, and softer sharing",
+      "intro": "Four quick updates in the week after launch, gathered here. Zen Gold now tracks the promises you actually keep, and Home shows you around the first time.",
+      "heroMedia": {
+        "type": "stage",
+        "layout": "spotlight",
+        "tone": "gold",
+        "alt": "Zen Gold with gold pay unlocked after five kept days, beside a week where the promise broke and a week one day from unlock",
+        "items": [
+          {
+            "src": "/img/changelog/g-kept.webp",
+            "w": 800,
+            "h": 2000,
+            "label": "Gold pay unlocked",
+            "dot": "zen"
+          },
+          {
+            "src": "/img/changelog/g-card-broken.webp",
+            "w": 684,
+            "h": 512,
+            "label": "Promise broken",
+            "dot": "ember"
+          },
+          {
+            "src": "/img/changelog/g-card-ontrack.webp",
+            "w": 684,
+            "h": 512,
+            "label": "One day away",
+            "dot": "amber"
+          }
+        ]
+      },
+      "features": [
+        {
+          "title": "Promises that track for real",
+          "body": "Zen Gold's screen-time card follows your actual days. Keep your promise five days out of seven and your gold unlocks for the rest of the week. Pro adds a monthly view."
+        },
+        {
+          "title": "A guide on your first Home",
+          "body": "After onboarding, a short guide shows you where everything lives: swipe one way for your Zen Score, the other for Zen Gold, and where to find your buddy."
+        },
+        {
+          "title": "Softer sharing",
+          "body": "Share sheets now blur the screen behind them instead of blacking it out. Shared cards carry a friendlier caption and a link so friends can find ZenMode OS.",
+          "media": {
+            "type": "stage",
+            "layout": "duo",
+            "tone": "ink",
+            "alt": "Share sheets that blur the page behind: a Zen Circle card and its share preview",
+            "items": [
+              {
+                "src": "/img/changelog/s-circle-card.webp",
+                "w": 461,
+                "h": 1000
+              },
+              {
+                "src": "/img/changelog/s-share-preview.webp",
+                "w": 461,
+                "h": 1000
+              }
+            ]
+          }
+        }
+      ],
+      "improvements": [
+        "Page dots are tappable: jump straight between Zen Score, Home and Zen Gold.",
+        "Zen Gold's forecast follows the real calendar, and the change shows 0% when you have no gold yet.",
+        "Streak captions match their length: days and months, not \"one month\" for everything.",
+        "A real eye-off icon for hiding your gold amount.",
+        "View T&C opens the terms, and only the link itself is tappable.",
+        "The Pro plan page links to a guide for redeeming promo codes.",
+        "Onboarding always shows in light mode."
+      ],
+      "fixes": [
+        "ZenMode OS stopped asking to turn accessibility back on while it was still running.",
+        "Today only counts as kept once it's over, so gold no longer unlocks at noon and locks again by evening.",
+        "Fixed text wrapping on the sign-in step.",
+        "The search bar follows the keyboard correctly on more phones.",
+        "Fixed the theme not resetting properly."
+      ],
+      "signoff": "Settle in. We'll keep smoothing the path.",
+      "todos": [
+        "These are four Play builds (3.02 to 3.05, Sept 21–25). 3.02 and 3.03 were analytics-only, so they're folded in here."
+      ],
+      "commits": [
+        "e9bd3f5",
+        "473f8e1",
+        "1edcd16",
+        "ad86c72",
+        "abf4d64",
+        "35f3a01",
+        "020a2b2",
+        "3ca95ee",
+        "2c9421a",
+        "1e6551e"
+      ],
+      "icon": "coin"
+    },
+    {
+      "id": "5",
+      "version": "3.0",
+      "date": "2026-09-21",
+      "sidebarLabel": "ZenMode OS",
+      "title": "Meet ZenMode OS: a new Home, Distraction Blocker, Zen Circle, and Zen Gold",
+      "intro": "ZenMode is now ZenMode OS. Everything is rebuilt around one idea: reward, not shame. Your home screen is on your side, your friends keep you honest, and keeping your promise earns something real.",
+      "heroMedia": {
+        "type": "youtube",
+        "id": "XG9aPUdouB4",
+        "poster": "/img/changelog/os-hero.webp",
+        "alt": "ZenMode OS v3 trailer: less screen time turns gold",
+        "label": "1:04"
+      },
+      "features": [
+        {
+          "title": "A Home that reads your day",
+          "body": "Home sits between two pages: swipe one way for your Zen Score, the other for Zen Gold. The background takes on a calm green, yellow or warm wash depending on how today's screen time is going. New type, new colours and a new mark run through every screen."
+        },
+        {
+          "title": "Distraction Blocker",
+          "body": "Turn off YouTube Shorts, Instagram Reels and Snapchat Spotlight inside the apps themselves. The rest of each app keeps working. It replaces the old 15-minute doomscroll nudge with something quieter that works straight away.",
+          "media": {
+            "type": "stage",
+            "layout": "duo",
+            "tone": "zen",
+            "alt": "Distraction Blocker in Settings: quiet reels and shorts, app by app",
+            "items": [
+              {
+                "src": "/img/changelog/s-blocker-settings.webp",
+                "w": 263,
+                "h": 356
+              },
+              {
+                "src": "/img/changelog/s-blocker-list.webp",
+                "w": 263,
+                "h": 455
+              }
+            ]
+          }
+        },
+        {
+          "title": "Zen Circle and Zen Bro",
+          "body": "Share your screen time with a friend or a small circle, and send a reaction when someone's having a good day. Invite links open straight into the app, or let Random Connect pair you with someone new."
+        },
+        {
+          "title": "Zen Gold and My Promise",
+          "body": "Set a weekly screen-time promise. Keep it and your gold unlocks, ready to invest in real gold through Kite.",
+          "media": {
+            "type": "stage",
+            "layout": "cover",
+            "tone": "zen",
+            "alt": "Scroll less. Stack gold. ZenMode OS Home with gold coins",
+            "items": [
+              {
+                "src": "/img/changelog/gold-feature.webp",
+                "w": 1024,
+                "h": 500
+              }
+            ]
+          }
+        }
+      ],
+      "improvements": [
+        "Search everything from one bar on Home, with the ZenMode OS gradient tracing its edge as you type.",
+        "Zen Score screen: a daily number with your app categories and a session log behind it.",
+        "Streaks now follow your Zen Score, with a milestone card to save or share.",
+        "Redesigned Settings, with your plan and a screen-time chart up top.",
+        "A new onboarding that walks you through setting a promise and finding your circle.",
+        "A weekly recap of how your week went.",
+        "Zen Pro: more Random Connects, more promise edits, monthly tracking, themes and data export.",
+        "Soft interface sounds and matching haptics, with an off switch in Settings.",
+        "A new app icon: the ZenMode mark.",
+        "One less permission at setup. Display over other apps is no longer needed.",
+        "Better contrast for muted text in light mode."
+      ],
+      "fixes": [
+        "Phone and Contacts no longer hide each other on MIUI and similar phones.",
+        "Screen time no longer counts time spent on the home screen itself.",
+        "The accessibility service is sturdier, so the permission stops switching itself off.",
+        "Dark mode no longer inverts text on the stats cards.",
+        "The resistance screen is off by default; turn it on in Settings if you want it.",
+        "Retired: the doomscroll monitor, the distracting-apps picker and app pinning."
+      ],
+      "signoff": "Quiet the noise, together. Welcome to ZenMode OS.",
+      "todos": [
+        "3.01 went out the same day (Sept 21) and is folded in here."
+      ],
+      "commits": [
+        "c20c246",
+        "a0df8ea",
+        "588719e",
+        "202217a",
+        "1ef26ae",
+        "ad8f2f2",
+        "6e4cc97",
+        "e306f99",
+        "8e676d3",
+        "3767780",
+        "93e75fb",
+        "49c5927",
+        "9e05883",
+        "9328923",
+        "75cc539",
+        "dbeda4b",
+        "b8748f2",
+        "b233742",
+        "4310cc8",
+        "90e0520",
+        "bdd9ffa",
+        "8ebdfe6",
+        "a0cd4cf",
+        "360060b",
+        "13de862",
+        "87f12ee",
+        "873327f"
+      ],
+      "icon": "mark"
+    },
+    {
+      "id": "4",
+      "version": "2.1",
+      "date": "2026-04-17",
+      "sidebarLabel": "Reactions",
+      "title": "Reactions, notification dots, and pinned apps",
+      "intro": "Accountability got a little warmer. Cheer your buddy on with a tap, and see what's waiting for you without opening every app.",
+      "heroMedia": null,
+      "features": [
+        {
+          "title": "Send your buddy a reaction",
+          "body": "Had a good day together? Send a like straight from Home. Your buddy gets a notification, and you'll see theirs come back."
+        },
+        {
+          "title": "Notification dots on Home",
+          "body": "Apps on Home show how many notifications they're holding, so you can check at a glance without opening each app."
+        },
+        {
+          "title": "Pin apps and jump to app info",
+          "body": "Keep the apps you use on purpose pinned to Home, and reach any app's info page in a tap."
+        }
+      ],
+      "improvements": [
+        "Change which apps count as distracting from a simple sheet in Settings.",
+        "Skip Google sign-in during setup if you'd rather not.",
+        "Cleaner spacing throughout."
+      ],
+      "fixes": [
+        "Fixed an onboarding background and a memory leak."
+      ],
+      "signoff": "A small nudge from a friend goes a long way.",
+      "todos": [],
+      "commits": [
+        "8663156",
+        "09549cc",
+        "71207b6",
+        "02c43d6",
+        "41ba54e",
+        "519be73",
+        "90ac1f6",
+        "1e88583",
+        "3af531c"
+      ],
+      "icon": "heart"
+    },
+    {
+      "id": "3",
+      "version": "2.0.4",
+      "date": "2026-03-31",
+      "sidebarLabel": "Zen Buddy",
+      "title": "Zen Buddy, Random Connect, and streaks you can share",
+      "intro": "The first version of ZenMode's big idea: you don't have to do this alone. Share your screen time with someone you trust and keep each other honest.",
+      "heroMedia": null,
+      "features": [
+        {
+          "title": "Zen Buddy",
+          "body": "Pair up with a friend and see each other's screen time for the day. That's accountability, without the guilt."
+        },
+        {
+          "title": "Random Connect",
+          "body": "No one to pair with yet? Random Connect matches you with another ZenMode user who's working on the same thing."
+        },
+        {
+          "title": "Streaks, and sharing them",
+          "body": "A new streaks card on Home tracks your mindful days in a row. Share it when you're proud of it."
+        }
+      ],
+      "improvements": [
+        "Sign in with email, not just Google.",
+        "A clearer setup screen explains why ZenMode needs accessibility access.",
+        "Dark mode now carries through onboarding too.",
+        "Update prompts are gentler: you can choose to update tomorrow."
+      ],
+      "fixes": [
+        "Fixed fonts not loading on some phones.",
+        "Removed the unlock counter from your stats."
+      ],
+      "signoff": "Better together. Always has been.",
+      "todos": [],
+      "commits": [
+        "79c536f",
+        "8e75b42",
+        "ba37cd8",
+        "a05bcce",
+        "e55f4dc",
+        "fa738ec",
+        "aff8dfd",
+        "44aa8b9"
+      ],
+      "icon": "users"
+    },
+    {
+      "id": "2",
+      "version": "2.0",
+      "date": "2026-03-26",
+      "sidebarLabel": "Version 2",
+      "title": "A pause that reads the room, a new Home, and dark mode",
+      "intro": "Version 2 rebuilds the basics. A fresh onboarding and Home, a pause before distracting apps that changes with your day, and a theme for every hour.",
+      "heroMedia": {
+        "type": "youtube",
+        "id": "48M1x2ryhpI",
+        "poster": "/img/changelog/v2-trailer.webp",
+        "alt": "ZenMode v2 Play Store trailer",
+        "label": "Watch the v2 trailer"
+      },
+      "features": [
+        {
+          "title": "A resistance screen with a mood",
+          "body": "Before a distracting app opens, ZenMode takes a seven-second breath with you. The screen looks calm, neutral or uneasy depending on how your day is going."
+        },
+        {
+          "title": "A rebuilt onboarding and Home",
+          "body": "Setup walks you through each step, and Home has a clearer layout with your stats on hand."
+        },
+        {
+          "title": "Light and dark",
+          "body": "ZenMode now comes in light and dark, so it fits any time of day."
+        }
+      ],
+      "improvements": [
+        "A redesigned doomscroll check-in with a clear Close app button."
+      ],
+      "fixes": [],
+      "signoff": "Breathe in. Breathe out. Then decide.",
+      "todos": [],
+      "commits": [
+        "c02b896",
+        "b57b870",
+        "5cfc8c2",
+        "b35022b",
+        "f3ea8fd",
+        "9caeda0",
+        "9fc29d9",
+        "3add428"
+      ],
+      "icon": "timer"
+    },
+    {
+      "id": "1",
+      "version": "1.0.2",
+      "date": "2026-03-20",
+      "sidebarLabel": "First light",
+      "title": "ZenMode is here: a quieter home screen, open source from day one",
+      "intro": "The first release of ZenMode. It's a minimalist launcher that puts a little space between you and the scroll, and it's open source all the way down.",
+      "heroMedia": {
+        "type": "stage",
+        "layout": "wide",
+        "tone": "ink",
+        "alt": "Zenmode, an aesthetic and mindful launcher. An OSS product, FOSS United.",
+        "items": [
+          {
+            "src": "/img/changelog/v1-banner.webp",
+            "w": 1600,
+            "h": 360
+          }
+        ]
+      },
+      "features": [
+        {
+          "title": "A minimalist launcher",
+          "body": "ZenMode replaces your home screen with a simple list of the apps you mean to use, and today's screen time sits right on top."
+        },
+        {
+          "title": "A pause before you open",
+          "body": "Opening a distracting app starts a short countdown first. Seven seconds is often enough to remember why you picked up your phone."
+        },
+        {
+          "title": "A nudge when the scroll runs long",
+          "body": "If you've been scrolling for more than 15 minutes, ZenMode checks in and asks whether you still mean to be there."
+        }
+      ],
+      "improvements": [
+        "Open source under GPLv3 from the very first commit. Anyone can build it, no keys required."
+      ],
+      "fixes": [],
+      "signoff": "Day one. Thanks for being here.",
+      "todos": [],
+      "commits": [
+        "2210c1e"
+      ],
+      "icon": "sunrise"
+    }
+  ]
+}
