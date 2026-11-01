@@ -1,6 +1,6 @@
 # ZenMode OS Changelog
 
-Every ZenMode OS release, in plain words. Live at https://kamal007olica.github.io/zenmode-changelog/
+Every ZenMode OS release, in plain words. Live at https://justkamal07.github.io/zenmode-changelog/
 
 Built with [Docusaurus](https://docusaurus.io/). Release content lives in `src/data/changelog.json`; the page is `src/pages/index.tsx`.
 
